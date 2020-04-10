@@ -1,7 +1,13 @@
-from alpine:3.11
+FROM alpine:3.11
+MAINTAINER Christian Ridderström "christian.ridderstrom@gmail.com"
+WORKDIR /root
 
-run apk update && apk add \
-	git \
-	emacs \
-	bash \
+RUN apk update &&               \
+    apk add                     \
+	ca-certificates         \
+	git                     \
+	emacs                   \
+	bash                    \
 	tree
+
+CMD [ "emacs" ]
