@@ -1,14 +1,14 @@
-* Lite Emacs in a Docker
+* Lightweight Emacs in a Docker
 
-A super light weight emacs in a Docker image, intended for use as CI 
-backend to publish org-mode documents.
+A lightweight Emacs installed in a Docker image, primarily intended
+for use as CI backend to publish org-mode documents.
 
 For more general purpose images related to Emacs, see e.g. 
 [[https://github.com/Silex/docker-emacs][Silex/docker-emacs]].
 
 * Usage
 
-A pre-build Docker image based on this repository should be available at 
+A pre-built Docker image based on this repository should be available at 
 [[https://hub.docker.com/repository/docker/drchr/emacs-for-org-mode-publishing/][drchr/emacs-for-org-mode-publishing]].
 
 Example of launching Emacs within the image:
